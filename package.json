@@ -1,0 +1,22 @@
+{
+  "name": "semantic-release-test-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/michaelmccord/semantic-release-test-utils.git",
+  "author": "Michael McCord",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "delay": "^4.3.0",
+    "dockerode": "^3.2.0",
+    "execa": "^4.0.0",
+    "file-url": "^3.0.0",
+    "get-stream": "^5.1.0",
+    "git-log-parser": "^1.2.0",
+    "got": "^10.7.0",
+    "mockserver-client": "^5.10.0",
+    "p-each-series": "^2.1.0",
+    "p-retry": "^4.2.0",
+    "tempy": "^0.5.0"
+  }
+}
