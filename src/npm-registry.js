@@ -25,7 +25,7 @@ async function start() {
   container = await docker.createContainer({
     Tty: true,
     Image: IMAGE,
-    PortBindings: {[`${COUCHDB_PORT}/tcp`]: [{HostPort: `${SERVER_PORT}`}]},
+    HostConfig: {PortBindings: {[`${COUCHDB_PORT}/tcp`]: [{HostPort: `${SERVER_PORT}`}]}},
     Env: [`COUCHDB_USER=${COUCHDB_USER}`, `COUCHDB_PASSWORD=${COUCHDB_PASSWORD}`],
   });
 
