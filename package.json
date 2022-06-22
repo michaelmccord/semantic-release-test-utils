@@ -13,7 +13,7 @@
     "file-url": "^3.0.0",
     "get-stream": "^5.1.0",
     "git-log-parser": "^1.2.0",
-    "got": "^10.7.0",
+    "got": "^11.8.5",
     "mockserver-client": "^5.10.0",
     "p-each-series": "^2.1.0",
     "p-retry": "^4.2.0",
